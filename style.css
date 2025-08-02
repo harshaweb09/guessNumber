@@ -28,7 +28,7 @@ body {
 
 /* Mobile First Layout 📱 */
 header {
-  position: relative;
+  /* position: relative; */
   padding: 2rem;
   border-bottom: var(--border-style);
   text-align: center;
@@ -45,8 +45,10 @@ h1 {
 
 .again {
   position: absolute;
-  top: 2rem;
-  left: 2rem;
+  bottom: 2rem;
+  left: 30%;
+  right: 30%;
+  margin: 0 auto 0;
 }
 
 .number {
@@ -190,5 +192,15 @@ main {
     font-size: 2rem;
     text-align: left;
     align-items: flex-start;
+  }
+  header {
+    position: relative;
+  }
+  .again {
+    margin: 0;
+    top: 2rem;
+    left: 2rem;
+    right: auto;
+    bottom: auto;
   }
 }
