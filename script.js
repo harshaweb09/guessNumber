@@ -27,7 +27,7 @@ let audioUnlocked = false;
 
 // Initializes or resets the game to its starting state
 const init = function () {
-  score = 9;
+  score = 7;
   secretNumber = Math.trunc(Math.random() * 100) + 1;
   isPlaying = true;
 
